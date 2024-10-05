@@ -1,0 +1,74 @@
+name: mindwrite
+description: "clone app of google keepNote with Bloc"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  bloc: ^8.1.4
+  hive: ^2.2.3
+  uuid: ^4.5.0
+  intl: ^0.19.0
+  get_it: ^7.7.0
+  equatable: ^2.0.5
+  go_router: ^14.2.7
+  hive_flutter: ^1.1.0
+  flutter_bloc: ^8.1.6
+  image_picker: ^1.1.2
+  flutter_svg: ^2.0.10+1
+  flutter_animate: ^4.5.0
+  loading_animation_widget: ^1.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  syncfusion_flutter_signaturepad: ^26.2.14
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_gen: ^5.7.0
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  better_commit: ^1.6.0
+  hive_generator: ^2.0.1
+
+    
+
+flutter_gen:
+  output: lib/core/gen/
+  integrations:
+    flutter_svg: true
+
+
+flutter:
+  uses-material-design: true
+
+  
+  assets:
+    - assets/fonts/
+    - assets/images/
+  
+  fonts:
+    - family: Google sans
+      fonts:
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/GoogleSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/GoogleSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/GoogleSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/GoogleSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/GoogleSans-Regular.ttf
+          weight: 100
