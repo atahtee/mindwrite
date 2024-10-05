@@ -35,8 +35,8 @@ class _SplashViewState extends State<SplashView> {
             children: [
               Center(
                 child: Assets.images.logoDark.svg(
-                  width: 300,
-                  height: 300,
+                  width: 400,
+                  height: 400,
                   placeholderBuilder: (context) =>
                       const CircularIndicatorWidget(),
                   colorFilter: ColorFilter.mode(
@@ -46,7 +46,7 @@ class _SplashViewState extends State<SplashView> {
                 ),
               ),
               Text(
-                'Mind Write',
+                'MindWrite',
                 style: TextStyle(
                     color: AppColorConstants.primaryDarkColor,
                     decoration: TextDecoration.none,
