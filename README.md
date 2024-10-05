@@ -71,15 +71,5 @@ syncfusion_flutter_signaturepad: ^26.2.14
 
 ## Upcoming Features (Todo)
 
-- [ ] Text-to-speech functionality
-- [ ] Reminders for notes
-- [ ] Date picker for scheduling
-- [ ] Persian language support
-- [ ] Voice recording for notes
-- [ ] Checkboxes in notes
-- [ ] Undo and redo actions
-- [ ] Note loading and drag-and-drop functionality
-- [ ] Back button pop behavior
-- [ ] Refactor to use model entity instead of noemodel
+[Project Tracking Board](https://github.com/users/atahtee/projects/2/views/1)
 
----
