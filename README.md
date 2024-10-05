@@ -1,22 +1,28 @@
 
-
 <div align="center">
-  <img src="github_assets/app_logo.png" alt="App Logo" width="150"/>
-  
-  <h1>MindWrite</h1>
-  
+  <img src="github_assets/app_logo.png" alt="MindWrite Logo" width="150"/>
+
+  # MindWrite
+
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter Badge"/>
   <img src="https://img.shields.io/badge/Dart-%2302569B.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge"/>
 </div>
 
 ---
 
-**MindWrite** is a best practice app implementing Clean Architecture with the **Bloc** pattern and exploring technologies such as:
-`equatable`, `image_picker`, `get_it`, `go_router`, `hive`, and more.
+**MindWrite** is a best-practice app built using **Clean Architecture** and **Bloc Pattern**, featuring modern technologies such as:
+
+- `equatable`
+- `image_picker`
+- `get_it`
+- `go_router`
+- `hive`
+
+and more!
 
 ---
 
-## App Demo:
+## App Demo
 
 <div align="center">
   <img src="github_assets/demo.png" alt="App Demo" />
@@ -24,7 +30,7 @@
 
 ---
 
-## Dependencies:
+## Dependencies
 
 ```yaml
 bloc: ^8.1.4
@@ -46,29 +52,34 @@ flutter_staggered_grid_view: ^0.7.0
 syncfusion_flutter_signaturepad: ^26.2.14
 ```
 
-### Available Features :
+---
 
-- [x] draw
-- [x] archive
-- [x] deleted
-- [x] palette colors and background image for notes 
-- [x] add and take image to notes
-- [x] pin and ordering lists
-- [x] label making
-- [x] send and share + make copy
-- [x] light theme
-- [x] settings
+## Features
 
-### Todo :
+- [x] Drawing capabilities
+- [x] Archiving notes
+- [x] Deleted notes management
+- [x] Color palette and background images for notes
+- [x] Add or take images for notes
+- [x] Pinning and reordering lists
+- [x] Label creation
+- [x] Sharing, copying, and sending notes
+- [x] Light theme support
+- [x] Settings page for customization
 
-- [ ] text to speech
-- [ ] reminders
-- [ ] date picker
-- [ ] persian version
-- [ ] recording
-- [ ] tick boxes in notes
-- [ ] do and redo buttons
-- [ ] note loading and drag droping
-- [ ] back button invoke poping
-- [ ] use model entitiy instead noemodel
+---
 
+## Upcoming Features (Todo)
+
+- [ ] Text-to-speech functionality
+- [ ] Reminders for notes
+- [ ] Date picker for scheduling
+- [ ] Persian language support
+- [ ] Voice recording for notes
+- [ ] Checkboxes in notes
+- [ ] Undo and redo actions
+- [ ] Note loading and drag-and-drop functionality
+- [ ] Back button pop behavior
+- [ ] Refactor to use model entity instead of noemodel
+
+---
